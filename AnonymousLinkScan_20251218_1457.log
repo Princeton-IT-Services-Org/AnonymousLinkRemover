@@ -1,0 +1,100 @@
+**********************
+PowerShell transcript start
+Start time: 20251218145835
+Username: AzureAD\RenalkaKhan
+RunAs User: AzureAD\RenalkaKhan
+Configuration Name: 
+Machine: PITS-US-NB-1010 (Microsoft Windows NT 10.0.26200.0)
+Host Application: C:\Program Files\WindowsApps\Microsoft.PowerShell_7.5.4.0_x64__8wekyb3d8bbwe\pwsh.dll
+Process ID: 32952
+PSVersion: 7.5.4
+PSEdition: Core
+GitCommitId: 7.5.4
+OS: Microsoft Windows 10.0.26200
+Platform: Win32NT
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1, 6.0, 7.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+WSManStackVersion: 3.0
+**********************
+Transcript started, output file is C:\Users\RenalkaKhan\Documents\PITS Projects\Data Posture\AnonymousLinkRemoverScripts\AnonymousLinkScan_20251218_1457.log
+Connecting to Microsoft Graph...
+
+--- Scanning SharePoint Sites ---
+Scanning Site: AdeleSPSite (https://5d3t4d.sharepoint.com/sites/AdeleSPSite)
+Scanning Site: PowerShellScript-Test (https://5d3t4d.sharepoint.com/sites/PowerShellScript-Test)
+    [FOUND] Anonymous link on: adele sharepoint test.docx
+    [FOUND] Anonymous link on: psscript-test.docx
+Scanning Site: Frontier-IT-Demo (https://5d3t4d.sharepoint.com/sites/Frontier-IT-Demo)
+Scanning Site: MSFT (https://5d3t4d.sharepoint.com/sites/MSFT743)
+Scanning Site: U.S. Sales (https://5d3t4d.sharepoint.com/sites/U.S.Sales)
+Scanning Site: Sales and Marketing (https://5d3t4d.sharepoint.com/sites/SalesandMarketing)
+Scanning Site: Retail (https://5d3t4d.sharepoint.com/sites/Retail)
+Scanning Site: Mark 8 Project Team (https://5d3t4d.sharepoint.com/sites/Mark8ProjectTeam)
+Scanning Site: Digital Initiative Public Relations (https://5d3t4d.sharepoint.com/sites/DigitalInitiativePublicRelations)
+Scanning Site: Team Site (https://5d3t4d.sharepoint.com/sites/contentTypeHub)
+Scanning Site:  (https://5d3t4d.sharepoint.com/search)
+Scanning Site: All Company (https://5d3t4d.sharepoint.com/sites/allcompany)
+Scanning Site: Communication site (https://5d3t4d.sharepoint.com/)
+
+--- Scanning User OneDrives ---
+Scanning OneDrive: AdeleV@5d3t4d.onmicrosoft.com
+    [FOUND] Anonymous link on: PS Test Folder/test subfolder/test subfolder doc.docx
+    [FOUND] Anonymous link on: PS Test Folder/doc1.docx
+    [FOUND] Anonymous link on: PS Test Doc.docx
+Scanning OneDrive: AlexW@5d3t4d.onmicrosoft.com
+Scanning OneDrive: DiegoS@5d3t4d.onmicrosoft.com
+Scanning OneDrive: GradyA@5d3t4d.onmicrosoft.com
+Scanning OneDrive: HenriettaM@5d3t4d.onmicrosoft.com
+Scanning OneDrive: IsaiahL@5d3t4d.onmicrosoft.com
+Scanning OneDrive: JohannaL@5d3t4d.onmicrosoft.com
+Scanning OneDrive: JoniS@5d3t4d.onmicrosoft.com
+Scanning OneDrive: LeeG@5d3t4d.onmicrosoft.com
+Scanning OneDrive: LidiaH@5d3t4d.onmicrosoft.com
+Scanning OneDrive: LynneR@5d3t4d.onmicrosoft.com
+Scanning OneDrive: MeganB@5d3t4d.onmicrosoft.com
+Scanning OneDrive: MiriamG@5d3t4d.onmicrosoft.com
+Scanning OneDrive: NestorW@5d3t4d.onmicrosoft.com
+Scanning OneDrive: PattiF@5d3t4d.onmicrosoft.com
+Scanning OneDrive: PradeepG@5d3t4d.onmicrosoft.com
+Scanning OneDrive: renalka.khan_princetonits.com#EXT#@5d3t4d.onmicrosoft.com
+PS>TerminatingError(Get-MgUserDrive_List): "The running command stopped because the preference variable "ErrorActionPreference" or common parameter is set to Stop: User's mysite not found.
+
+Status: 404 (NotFound)
+ErrorCode: ResourceNotFound
+Date: 2025-12-18T19:59:07
+
+Headers:
+Vary                          : Accept-Encoding
+Strict-Transport-Security     : max-age=31536000
+request-id                    : b125127a-fa31-48c2-801f-b3d1ccacca5c
+client-request-id             : cff1781d-7a24-4544-8713-712460fc2998
+x-ms-ags-diagnostic           : {"ServerInfo":{"DataCenter":"East US 2","Slice":"E","Ring":"5","ScaleUnit":"003","RoleInstance":"BN5PEPF00033911"}}
+Date                          : Thu, 18 Dec 2025 19:59:06 GMT
+
+"
+Scanning OneDrive: renalkakhan_gmail.com#EXT#@5d3t4d.onmicrosoft.com
+PS>TerminatingError(Get-MgUserDrive_List): "The running command stopped because the preference variable "ErrorActionPreference" or common parameter is set to Stop: User's mysite not found.
+
+Status: 404 (NotFound)
+ErrorCode: ResourceNotFound
+Date: 2025-12-18T19:59:07
+
+Headers:
+Vary                          : Accept-Encoding
+Strict-Transport-Security     : max-age=31536000
+request-id                    : 8879e2fa-ed90-4783-acb9-e2cb40da7a32
+client-request-id             : 6e21dbaf-c11e-400b-9bea-8efc7ec306bd
+x-ms-ags-diagnostic           : {"ServerInfo":{"DataCenter":"East US 2","Slice":"E","Ring":"5","ScaleUnit":"003","RoleInstance":"BN5PEPF00033911"}}
+Date                          : Thu, 18 Dec 2025 19:59:06 GMT
+
+"
+Scanning OneDrive: rennj@5d3t4d.onmicrosoft.com
+    [FOUND] Anonymous link on: GreenPulse Burger Ingredients.docx
+    [FOUND] Anonymous link on: HR - Salary.xlsx
+
+Scan Complete. Found 7 unique anonymous links. Launching removal GUI...
+**********************
+PowerShell transcript end
+End time: 20251218150422
+**********************

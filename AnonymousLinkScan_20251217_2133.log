@@ -1,0 +1,680 @@
+**********************
+PowerShell transcript start
+Start time: 20251217213347
+Username: AzureAD\RenalkaKhan
+RunAs User: AzureAD\RenalkaKhan
+Configuration Name: 
+Machine: PITS-US-NB-1010 (Microsoft Windows NT 10.0.26200.0)
+Host Application: C:\Program Files\WindowsApps\Microsoft.PowerShell_7.5.4.0_x64__8wekyb3d8bbwe\pwsh.dll
+Process ID: 52884
+PSVersion: 7.5.4
+PSEdition: Core
+GitCommitId: 7.5.4
+OS: Microsoft Windows 10.0.26200
+Platform: Win32NT
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1, 6.0, 7.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+WSManStackVersion: 3.0
+**********************
+Transcript started, output file is C:\Users\RenalkaKhan\Documents\PITS Projects\Data Posture\AnonymousLinkRemoverScripts\AnonymousLinkScan_20251217_2133.log
+Connecting to Microsoft Graph...
+
+--- Scanning SharePoint Sites ---
+Scanning Site: Princeton IT (https://princetonits.sharepoint.com/sites/PrincetonIT)
+Scanning Site: ssl.alert@princetonits.com (https://princetonits.sharepoint.com/sites/ssl.alert)
+Scanning Site: FrontierTEST (https://princetonits.sharepoint.com/sites/FrontierTEST)
+Scanning Site: Princeton IT Services Home (https://princetonits.sharepoint.com/sites/PrincetonITServicesHome)
+Scanning Site: connectivity.activation (https://princetonits.sharepoint.com/sites/connectivity.activation)
+Scanning Site: Gopropose (https://princetonits.sharepoint.com/sites/Gopropose)
+Scanning Site: sw_sales (https://princetonits.sharepoint.com/sites/sw_sales)
+Scanning Site: Test Data Scraping Team (https://princetonits.sharepoint.com/sites/TestDataScrapingTeam)
+Scanning Site: Bidalerts (https://princetonits.sharepoint.com/sites/bidalerts)
+Scanning Site: External File Exchange (https://princetonits.sharepoint.com/sites/ExternalFileExchange)
+Scanning Site: Frontier Co-Op Dev Team (https://princetonits.sharepoint.com/sites/FrontierCo-OpDevTeam)
+Scanning Site: SK_NYC_ACS_DDU (https://princetonits.sharepoint.com/sites/SK_NYC_ACS_DDU)
+Scanning Site: NYC ACS DDU (https://princetonits.sharepoint.com/sites/NYCACSDDU)
+Scanning Site: internship.gudivada@princetonit.com (https://princetonits.sharepoint.com/sites/internship.gudivada)
+Scanning Site: G Alvarez (https://princetonits.sharepoint.com/sites/GAlvarez2)
+Scanning Site: AI Agents (https://princetonits.sharepoint.com/sites/AIAgents)
+Scanning Site: RWJF Amphitheater (https://princetonits.sharepoint.com/sites/RWJFAmphitheater)
+Scanning Site: vmo@princetonits.com (https://princetonits.sharepoint.com/sites/vmo)
+Scanning Site: channel-partner-dm (https://princetonits.sharepoint.com/sites/channel-partner-dm)
+Scanning Site: Peplink (https://princetonits.sharepoint.com/sites/Peplink)
+Scanning Site: shirdisaidham@princetonits.com (https://princetonits.sharepoint.com/sites/shirdisaidham)
+Scanning Site: Princeton office group (https://princetonits.sharepoint.com/sites/Princetonofficegroup)
+Scanning Site: sas.reqs@princetonits.com (https://princetonits.sharepoint.com/sites/sas.reqs)
+Scanning Site: careers.gudivada@princetonits.com (https://princetonits.sharepoint.com/sites/careers.gudivada)
+Scanning Site: Project Management (https://princetonits.sharepoint.com/sites/ProjectManagement)
+Scanning Site: DYCD UX (https://princetonits.sharepoint.com/sites/dydc-ux)
+Scanning Site: Support Team (https://princetonits.sharepoint.com/sites/SupportTeam)
+Scanning Site: m365.sales@princetonits.com (https://princetonits.sharepoint.com/sites/m365.sales)
+Scanning Site: Princeton-Intellizant (https://princetonits.sharepoint.com/sites/Princeton-Intellizant)
+Scanning Site: Accounting (https://princetonits.sharepoint.com/sites/Accounting)
+Scanning Site: NewOpportunities - NYPA_Management (https://princetonits.sharepoint.com/sites/NewOpportunities-NYPA_Management)
+Scanning Site: sas.career@princetonits.com (https://princetonits.sharepoint.com/sites/sas.career)
+Scanning Site: Clark KPI reports dashboard POC (https://princetonits.sharepoint.com/sites/ClarkKPIreportsdashboardPOC)
+Scanning Site: Project NonProfit (https://princetonits.sharepoint.com/sites/ProjectNGO)
+Scanning Site: Clark ProcoreIntegration (https://princetonits.sharepoint.com/sites/ClarkProcoreIntegration)
+Scanning Site: Pending Items (https://princetonits.sharepoint.com/sites/PendingItems)
+Scanning Site: Test (https://princetonits.sharepoint.com/sites/Test767)
+Scanning Site: sales.ca@tech365.io (https://princetonits.sharepoint.com/sites/sales.ca)
+Scanning Site: Team Dev (https://princetonits.sharepoint.com/sites/teamdev)
+Scanning Site: TestEmailDistributionInPowerAtumate (https://princetonits.sharepoint.com/sites/TestEmailDistributionInPowerAtumate)
+Scanning Site: EmailDistributionGroupTest (https://princetonits.sharepoint.com/sites/EmailDistributionGroup)
+Scanning Site: Tech365 Marketplace (https://princetonits.sharepoint.com/sites/amazon)
+Scanning Site: Inspire Greenville (https://princetonits.sharepoint.com/sites/InspireGreenville)
+Scanning Site: NYPA (https://princetonits.sharepoint.com/sites/NYPA)
+Scanning Site: CLARK (https://princetonits.sharepoint.com/sites/CLARK)
+Scanning Site: CONNERSTRONG (https://princetonits.sharepoint.com/sites/CONNERSTRONG)
+Scanning Site: DEkra (https://princetonits.sharepoint.com/sites/DEkra)
+Scanning Site: MyWorkPlan (https://princetonits.sharepoint.com/sites/MyWorkPlan)
+Scanning Site: NYPA Data Quality (https://princetonits.sharepoint.com/sites/NYPADataQuality)
+Scanning Site: accessibility.lab@princetonits.com (https://princetonits.sharepoint.com/sites/accessibility.lab)
+Scanning Site: Leadership-Zoominfo (https://princetonits.sharepoint.com/sites/leadership-zoominfo)
+Scanning Site: UDW (https://princetonits.sharepoint.com/sites/UDW)
+Scanning Site: NewOpportunities - SAS (https://princetonits.sharepoint.com/sites/NewOpportunities-SAS)
+Scanning Site: Sales-US-Zoominfo (https://princetonits.sharepoint.com/sites/sales-us-zoominfo)
+Scanning Site: NewOpportunities (https://princetonits.sharepoint.com/sites/NewOpportunities)
+Scanning Site: Team-Dev (https://princetonits.sharepoint.com/sites/Team-Dev)
+Scanning Site: team-copilot (https://princetonits.sharepoint.com/sites/team-copilot)
+Scanning Site: Princeton ITS Portfolio (https://princetonits.sharepoint.com/sites/PrincetonITSPortfolio)
+Scanning Site: NYPA_Implementation (https://princetonits.sharepoint.com/sites/NYPA_Implementation)
+Scanning Site: Media.net (https://princetonits.sharepoint.com/sites/Medianet)
+Scanning Site: Project (https://princetonits.sharepoint.com/sites/Project)
+Scanning Site: Princeton ITS Intake Funnel & update (https://princetonits.sharepoint.com/sites/PrincetonITSIntakeFunnelupdate)
+Scanning Site: Vasudha (https://princetonits.sharepoint.com/sites/Vasudha)
+Scanning Site: sales.us@tech365.io (https://princetonits.sharepoint.com/sites/sales.us)
+Scanning Site: test (https://princetonits.sharepoint.com/sites/test985)
+Scanning Site: Discussion Page (https://princetonits.sharepoint.com/sites/discussionpage)
+Scanning Site: ai (https://princetonits.sharepoint.com/sites/AI)
+Scanning Site: Accessibility AI (https://princetonits.sharepoint.com/sites/AccessibilityAI)
+Scanning Site: Onboard (https://princetonits.sharepoint.com/sites/Onboard)
+Scanning Site: CoPilot implementation (https://princetonits.sharepoint.com/sites/copilot)
+Scanning Site: POWERBI (https://princetonits.sharepoint.com/sites/POWERBI)
+Scanning Site: sales-team-princeton-internal (https://princetonits.sharepoint.com/sites/sales-team-princeton-internal)
+Scanning Site: resource.manager@princetonits.com (https://princetonits.sharepoint.com/sites/resource.manager)
+Scanning Site: djiuser@princetonits.com (https://princetonits.sharepoint.com/sites/djiuser)
+Scanning Site: test (https://princetonits.sharepoint.com/sites/test)
+Scanning Site: apple.in (https://princetonits.sharepoint.com/sites/apple.in)
+Scanning Site: sales.careers.us (https://princetonits.sharepoint.com/sites/sales.careers.us)
+Scanning Site: careers.ca (https://princetonits.sharepoint.com/sites/careers.ca)
+Scanning Site: m365.support@princetonits.com (https://princetonits.sharepoint.com/sites/m365.support)
+Scanning Site: Apps (https://princetonits.sharepoint.com/sites/appcatalog)
+Scanning Site: Intranet (https://princetonits.sharepoint.com/sites/Intranet)
+Scanning Site: Project 1 (https://princetonits.sharepoint.com/sites/Project1)
+Scanning Site: voice.support (https://princetonits.sharepoint.com/sites/voice.support)
+Scanning Site: CADISTRO_PO_REQ (https://princetonits.sharepoint.com/sites/CADISTRO_PO_REQ)
+Scanning Site: sled.sales.ca (https://princetonits.sharepoint.com/sites/sled.sales.ca)
+Scanning Site: itserve@tech365.io (https://princetonits.sharepoint.com/sites/itserve)
+Scanning Site: timesheet.summary (https://princetonits.sharepoint.com/sites/timesheet.summary)
+Scanning Site: open.reqs (https://princetonits.sharepoint.com/sites/open.reqs)
+Scanning Site: internship.us@princetonits.com (https://princetonits.sharepoint.com/sites/internship.us)
+Scanning Site: hc-sales@princetonits.com (https://princetonits.sharepoint.com/sites/hc-sales)
+Scanning Site: outdoor-event-careers (https://princetonits.sharepoint.com/sites/outdoor-event-careers)
+Scanning Site: zelle@tech365.io (https://princetonits.sharepoint.com/sites/zelle)
+Scanning Site: Inside-Sales-NA (https://princetonits.sharepoint.com/sites/inside-sales-na)
+Scanning Site: figma@princetonits.com (https://princetonits.sharepoint.com/sites/figma)
+Scanning Site: samsung-knox (https://princetonits.sharepoint.com/sites/samsung-knox)
+Scanning Site: okai (https://princetonits.sharepoint.com/sites/okai)
+Scanning Site: spam-analysis (https://princetonits.sharepoint.com/sites/spam-analysis)
+Scanning Site: P O's (https://princetonits.sharepoint.com/sites/PO%27s)
+Scanning Site: open.api@princetonits.com (https://princetonits.sharepoint.com/sites/open.api)
+Scanning Site: apple_sales_rpt@princetonits.com (https://princetonits.sharepoint.com/sites/apple_sales_rpt)
+Scanning Site: apple.dep@princetonits.com (https://princetonits.sharepoint.com/sites/apple.dep)
+Scanning Site: Developer Team (https://princetonits.sharepoint.com/sites/DeveloperTeam)
+Scanning Site: Exportation Documents and Canadian Workers (https://princetonits.sharepoint.com/sites/ExportationDocumentsandCanadianWorkers)
+Scanning Site: supplier.reg@princetonits.com (https://princetonits.sharepoint.com/sites/supplier.reg)
+Scanning Site: apple (https://princetonits.sharepoint.com/sites/apple)
+Scanning Site: sled.ops.ca (https://princetonits.sharepoint.com/sites/sled.ops.ca)
+Scanning Site: channel-partner-ca (https://princetonits.sharepoint.com/sites/channel-partner-ca)
+Scanning Site: INTERNS-IQ-EMPACT-APR2023 (https://princetonits.sharepoint.com/sites/INTERNS-IQ-EMPACT-APR2023)
+Scanning Site: domain.abuse (https://princetonits.sharepoint.com/sites/domain.abuse)
+Scanning Site: erpmark-hosting@princetonits.com (https://princetonits.sharepoint.com/sites/erpmark-hosting)
+Scanning Site: careersgroup@princetonits.com (https://princetonits.sharepoint.com/sites/careersgroup)
+Scanning Site: arap.ca (https://princetonits.sharepoint.com/sites/arap.ca)
+Scanning Site: arap (https://princetonits.sharepoint.com/sites/arap)
+Scanning Site: D365-Solutions@princetonits.com (https://princetonits.sharepoint.com/sites/D365-Solutions)
+Scanning Site: co-op.in@princetonits.com (https://princetonits.sharepoint.com/sites/co-op.in)
+Scanning Site: co-op.us@princetonits.com (https://princetonits.sharepoint.com/sites/co-op.us)
+Scanning Site: channel-partner-in (https://princetonits.sharepoint.com/sites/channel-partner-in)
+Scanning Site: channel-partner-us (https://princetonits.sharepoint.com/sites/channel-partner-us)
+Scanning Site: oracle.sales (https://princetonits.sharepoint.com/sites/oracle.sales)
+Scanning Site: WWP.Jobs (https://princetonits.sharepoint.com/sites/wwp.jobs)
+Scanning Site: Kakinada US Team (https://princetonits.sharepoint.com/sites/KakinadaUSTeam)
+Scanning Site: USDISTRO_PO_REQ (https://princetonits.sharepoint.com/sites/USDISTRO_PO_REQ)
+Scanning Site: freshminds (https://princetonits.sharepoint.com/sites/freshminds)
+Scanning Site: Sealed Bid (https://princetonits.sharepoint.com/sites/sealed.bid)
+Scanning Site: HRA-ROLE (https://princetonits.sharepoint.com/sites/hra-role)
+Scanning Site: domain.admin@princetonits.com (https://princetonits.sharepoint.com/sites/domain.admin)
+Scanning Site: linkedin.recruitment (https://princetonits.sharepoint.com/sites/linkedin.recruitment)
+Scanning Site: rfq.in (https://princetonits.sharepoint.com/sites/rfq.in)
+Scanning Site: arap.india (https://princetonits.sharepoint.com/sites/arap.india)
+Scanning Site: sled.india (https://princetonits.sharepoint.com/sites/sled.india)
+Scanning Site: Tech365 India Sales (https://princetonits.sharepoint.com/sites/tech365.india)
+Scanning Site: sled.reqs@princetonits.com (https://princetonits.sharepoint.com/sites/sled.reqs)
+Scanning Site: microsoft.support (https://princetonits.sharepoint.com/sites/microsoft.support)
+Scanning Site: legal (https://princetonits.sharepoint.com/sites/legal)
+Scanning Site: COSD Team (https://princetonits.sharepoint.com/sites/cosd)
+Scanning Site: MT-2021 (https://princetonits.sharepoint.com/sites/MT2021)
+Scanning Site: RecruitmentUS (https://princetonits.sharepoint.com/sites/RecruitmentUS)
+Scanning Site: Marketing-India (https://princetonits.sharepoint.com/sites/Marketing-India)
+Scanning Site: PowerApps Integeration (https://princetonits.sharepoint.com/sites/PowerAppsIntegeration)
+Scanning Site: SC360-India (https://princetonits.sharepoint.com/sites/SC360-India)
+Scanning Site: NYC Sales (https://princetonits.sharepoint.com/sites/nyc.sales)
+Scanning Site: submission (https://princetonits.sharepoint.com/sites/submission)
+Scanning Site: RFP Hub (https://princetonits.sharepoint.com/sites/RFPHub)
+Scanning Site: onboarding (https://princetonits.sharepoint.com/sites/onboarding)
+Scanning Site: sled.ops (https://princetonits.sharepoint.com/sites/sled.ops)
+Scanning Site: careers.india@princetonits.com (https://princetonits.sharepoint.com/sites/careers.india)
+Scanning Site: SC360-US (https://princetonits.sharepoint.com/sites/SC360-US)
+Scanning Site: Sales (https://princetonits.sharepoint.com/sites/Sales)
+Scanning Site: staffing (https://princetonits.sharepoint.com/sites/staffing.services)
+Scanning Site: All Company (https://princetonits.sharepoint.com/sites/AllCompany.11873457.gzwqlmtc)
+Scanning Site: R2 Engine (https://princetonits.sharepoint.com/sites/R2Engine)
+Scanning Site: Project References (https://princetonits.sharepoint.com/sites/ProjectReferences)
+Scanning Site: Interns2020 (https://princetonits.sharepoint.com/sites/interns2020)
+Scanning Site: Ruben (https://princetonits.sharepoint.com/sites/Ruben)
+Scanning Site: InTune (https://princetonits.sharepoint.com/sites/InTune)
+Scanning Site: Onboarding Documents and Employee handbook (https://princetonits.sharepoint.com/sites/OnboardingDocuments)
+Scanning Site: Candidates On boarding- W2 & C2C (https://princetonits.sharepoint.com/sites/CandidatesOnboarding-W2C2C)
+Scanning Site: Shiney's PC (https://princetonits.sharepoint.com/sites/ShineysPC)
+Scanning Site: Onboarding Tracker (https://princetonits.sharepoint.com/sites/OnboardingTracker)
+Scanning Site: Contracts (https://princetonits.sharepoint.com/sites/Contracts)
+Scanning Site: Project Web App (https://princetonits.sharepoint.com/sites/pwa)
+Scanning Site: Marketing (https://princetonits.sharepoint.com/sites/Marketing)
+Scanning Site:  (https://princetonits.sharepoint.com/search)
+Scanning Site: Pre-Sales (https://princetonits.sharepoint.com/sites/Pre-Sales)
+Scanning Site: NYC - Account Management (https://princetonits.sharepoint.com/sites/AccountManagement-NYC)
+Scanning Site: Account Management (https://princetonits.sharepoint.com/sites/AccountManagement)
+Scanning Site: Team Site (https://princetonits.sharepoint.com/sites/contentTypeHub)
+Scanning Site: Princeton It Services Inc Team Site (https://princetonits.sharepoint.com/)
+PS>TerminatingError(Get-MgDriveItemPermission_List): "The running command stopped because the preference variable "ErrorActionPreference" or common parameter is set to Stop: An error occurred while sending the request."
+PS>TerminatingError(Get-MgDriveItemPermission_List): "The running command stopped because the preference variable "ErrorActionPreference" or common parameter is set to Stop: No such host is known. (graph.microsoft.com:443)"
+PS>TerminatingError(Get-MgDriveItemPermission_List): "The running command stopped because the preference variable "ErrorActionPreference" or common parameter is set to Stop: No such host is known. (graph.microsoft.com:443)"
+PS>TerminatingError(Get-MgDriveItemPermission_List): "The running command stopped because the preference variable "ErrorActionPreference" or common parameter is set to Stop: No such host is known. (graph.microsoft.com:443)"
+PS>TerminatingError(Get-MgDriveItemPermission_List): "The running command stopped because the preference variable "ErrorActionPreference" or common parameter is set to Stop: No such host is known. (graph.microsoft.com:443)"
+PS>TerminatingError(Get-MgDriveItemPermission_List): "The running command stopped because the preference variable "ErrorActionPreference" or common parameter is set to Stop: No such host is known. (graph.microsoft.com:443)"
+PS>TerminatingError(Get-MgDriveItemPermission_List): "The running command stopped because the preference variable "ErrorActionPreference" or common parameter is set to Stop: No such host is known. (graph.microsoft.com:443)"
+PS>TerminatingError(Get-MgDriveItemPermission_List): "The running command stopped because the preference variable "ErrorActionPreference" or common parameter is set to Stop: No such host is known. (graph.microsoft.com:443)"
+PS>TerminatingError(Get-MgDriveItemPermission_List): "The running command stopped because the preference variable "ErrorActionPreference" or common parameter is set to Stop: No such host is known. (graph.microsoft.com:443)"
+PS>TerminatingError(Get-MgDriveItemPermission_List): "The running command stopped because the preference variable "ErrorActionPreference" or common parameter is set to Stop: No such host is known. (graph.microsoft.com:443)"
+PS>TerminatingError(Get-MgDriveItemPermission_List): "The running command stopped because the preference variable "ErrorActionPreference" or common parameter is set to Stop: No such host is known. (graph.microsoft.com:443)"
+PS>TerminatingError(Get-MgDriveItemPermission_List): "The running command stopped because the preference variable "ErrorActionPreference" or common parameter is set to Stop: No such host is known. (graph.microsoft.com:443)"
+PS>TerminatingError(Get-MgDriveItemPermission_List): "The running command stopped because the preference variable "ErrorActionPreference" or common parameter is set to Stop: No such host is known. (graph.microsoft.com:443)"
+PS>TerminatingError(Get-MgDriveItemPermission_List): "The running command stopped because the preference variable "ErrorActionPreference" or common parameter is set to Stop: No such host is known. (graph.microsoft.com:443)"
+PS>TerminatingError(Get-MgDriveItemPermission_List): "The running command stopped because the preference variable "ErrorActionPreference" or common parameter is set to Stop: No such host is known. (graph.microsoft.com:443)"
+PS>TerminatingError(Get-MgDriveItemPermission_List): "The running command stopped because the preference variable "ErrorActionPreference" or common parameter is set to Stop: No such host is known. (graph.microsoft.com:443)"
+PS>TerminatingError(Get-MgDriveItemPermission_List): "The running command stopped because the preference variable "ErrorActionPreference" or common parameter is set to Stop: No such host is known. (graph.microsoft.com:443)"
+Scanning Site: NYC Recruitment (https://princetonits.sharepoint.com/sites/NYCRecruitment)
+Scanning Site: Recruitment (https://princetonits.sharepoint.com/sites/Recruitment)
+Scanning Site: SW License (https://princetonits.sharepoint.com/sites/SWLicense)
+
+--- Scanning User OneDrives ---
+Scanning OneDrive: abhilash.vj@princetonits.com
+Scanning OneDrive: Abhishek.Wadhwani@princetonits.com
+PS>TerminatingError(Get-MgUserDrive_List): "The running command stopped because the preference variable "ErrorActionPreference" or common parameter is set to Stop: User's mysite not found.
+
+Status: 404 (NotFound)
+ErrorCode: ResourceNotFound
+Date: 2025-12-18T14:06:00
+
+Headers:
+Vary                          : Accept-Encoding
+Strict-Transport-Security     : max-age=31536000
+request-id                    : 9d6c28e7-1f63-4a93-a13f-153054a679d5
+client-request-id             : 363e3c6b-62a2-444b-8be2-3a287ffdde53
+x-ms-ags-diagnostic           : {"ServerInfo":{"DataCenter":"East US","Slice":"E","Ring":"5","ScaleUnit":"004","RoleInstance":"BL02EPF0006100F"}}
+Date                          : Thu, 18 Dec 2025 14:05:59 GMT
+
+"
+Scanning OneDrive: accounting.ca@princetonits.com
+PS>TerminatingError(Get-MgUserDrive_List): "The running command stopped because the preference variable "ErrorActionPreference" or common parameter is set to Stop: User's mysite not found.
+
+Status: 404 (NotFound)
+ErrorCode: ResourceNotFound
+Date: 2025-12-18T14:06:00
+
+Headers:
+Vary                          : Accept-Encoding
+Strict-Transport-Security     : max-age=31536000
+request-id                    : 1c639951-dd75-4517-80c6-4e7d5a1c3e17
+client-request-id             : b1d5d6b3-364c-4f52-928e-6071a6dcb8dc
+x-ms-ags-diagnostic           : {"ServerInfo":{"DataCenter":"East US","Slice":"E","Ring":"5","ScaleUnit":"004","RoleInstance":"BL02EPF0006100F"}}
+Date                          : Thu, 18 Dec 2025 14:05:59 GMT
+
+"
+Scanning OneDrive: accounting.india@princetonits.com
+PS>TerminatingError(Get-MgUserDrive_List): "The running command stopped because the preference variable "ErrorActionPreference" or common parameter is set to Stop: User's mysite not found.
+
+Status: 404 (NotFound)
+ErrorCode: ResourceNotFound
+Date: 2025-12-18T14:06:01
+
+Headers:
+Vary                          : Accept-Encoding
+Strict-Transport-Security     : max-age=31536000
+request-id                    : 71541036-5da8-47c4-8936-5f7087e5b970
+client-request-id             : b8f4a86d-86f5-48f2-88bc-84b59945c680
+x-ms-ags-diagnostic           : {"ServerInfo":{"DataCenter":"East US","Slice":"E","Ring":"5","ScaleUnit":"004","RoleInstance":"BL02EPF0006100F"}}
+Date                          : Thu, 18 Dec 2025 14:06:00 GMT
+
+"
+Scanning OneDrive: accounting@princetonits.com
+Scanning OneDrive: Aishwarya.Golladi@princetonits.com
+Scanning OneDrive: Alerts@princetonits.com
+PS>TerminatingError(Get-MgUserDrive_List): "The running command stopped because the preference variable "ErrorActionPreference" or common parameter is set to Stop: User's mysite not found.
+
+Status: 404 (NotFound)
+ErrorCode: ResourceNotFound
+Date: 2025-12-18T14:19:13
+
+Headers:
+Vary                          : Accept-Encoding
+Strict-Transport-Security     : max-age=31536000
+request-id                    : f1f305fe-8a05-4f48-b143-06ff5714bced
+client-request-id             : c13f72b1-dddc-45ab-acc6-d74f8422c975
+x-ms-ags-diagnostic           : {"ServerInfo":{"DataCenter":"East US","Slice":"E","Ring":"5","ScaleUnit":"002","RoleInstance":"BL02EPF0001DE69"}}
+Date                          : Thu, 18 Dec 2025 14:19:13 GMT
+
+"
+Scanning OneDrive: Amarjeet.Kakkar@princetonits.com
+Scanning OneDrive: amritesh.dasari@princetonits.com
+PS>TerminatingError(Get-MgDriveItemPermission_List): "The running command stopped because the preference variable "ErrorActionPreference" or common parameter is set to Stop: An error occurred while sending the request."
+Scanning OneDrive: anil.bulusu@princetonits.com
+Scanning OneDrive: Anil.pillai@princetonits.com
+Scanning OneDrive: asha.gutta@princetonits.com
+Scanning OneDrive: Ashish.Nautiyal@princetonits.com
+Scanning OneDrive: avd_duser_1@princetonits.com
+PS>TerminatingError(Get-MgUserDrive_List): "The running command stopped because the preference variable "ErrorActionPreference" or common parameter is set to Stop: User's mysite not found.
+
+Status: 404 (NotFound)
+ErrorCode: ResourceNotFound
+Date: 2025-12-18T14:27:56
+
+Headers:
+Vary                          : Accept-Encoding
+Strict-Transport-Security     : max-age=31536000
+request-id                    : 9858b508-26d9-40cc-895e-645210737edf
+client-request-id             : daa77dd2-787c-43b4-ab79-7a3e176cf593
+x-ms-ags-diagnostic           : {"ServerInfo":{"DataCenter":"East US 2","Slice":"E","Ring":"5","ScaleUnit":"005","RoleInstance":"BN2PEPF00004413"}}
+Date                          : Thu, 18 Dec 2025 14:27:55 GMT
+
+"
+Scanning OneDrive: avd_duser_2@princetonits.com
+PS>TerminatingError(Get-MgUserDrive_List): "The running command stopped because the preference variable "ErrorActionPreference" or common parameter is set to Stop: User's mysite not found.
+
+Status: 404 (NotFound)
+ErrorCode: ResourceNotFound
+Date: 2025-12-18T14:27:56
+
+Headers:
+Vary                          : Accept-Encoding
+Strict-Transport-Security     : max-age=31536000
+request-id                    : 70fb50c3-1a35-47be-aa7e-55e71c97b9e4
+client-request-id             : ecbee5ef-b3d0-4f34-becf-59ea9a6090f7
+x-ms-ags-diagnostic           : {"ServerInfo":{"DataCenter":"East US 2","Slice":"E","Ring":"5","ScaleUnit":"005","RoleInstance":"BN2PEPF00004413"}}
+Date                          : Thu, 18 Dec 2025 14:27:56 GMT
+
+"
+Scanning OneDrive: ayat.ali@princetonits.com
+Scanning OneDrive: azure-service@princetonits.com
+PS>TerminatingError(Get-MgUserDrive_List): "The running command stopped because the preference variable "ErrorActionPreference" or common parameter is set to Stop: User's mysite not found.
+
+Status: 404 (NotFound)
+ErrorCode: ResourceNotFound
+Date: 2025-12-18T14:57:25
+
+Headers:
+Vary                          : Accept-Encoding
+Strict-Transport-Security     : max-age=31536000
+request-id                    : 445afcf5-ec0b-4eba-9f08-90246756f8c1
+client-request-id             : bb2df939-b36b-4192-b4de-70e10865af8f
+x-ms-ags-diagnostic           : {"ServerInfo":{"DataCenter":"East US","Slice":"E","Ring":"5","ScaleUnit":"010","RoleInstance":"MN1PEPF00044A54"}}
+Date                          : Thu, 18 Dec 2025 14:57:24 GMT
+
+"
+Scanning OneDrive: bhasker@princetonits.com
+Scanning OneDrive: bhavishya.puttagunta@princetonits.com
+Scanning OneDrive: BookingEvent@princetonits.com
+PS>TerminatingError(Get-MgUserDrive_List): "The running command stopped because the preference variable "ErrorActionPreference" or common parameter is set to Stop: User's mysite not found.
+
+Status: 404 (NotFound)
+ErrorCode: ResourceNotFound
+Date: 2025-12-18T14:58:39
+
+Headers:
+Vary                          : Accept-Encoding
+Strict-Transport-Security     : max-age=31536000
+request-id                    : ba4e1ba4-2882-4dab-817e-855ca0b69363
+client-request-id             : c1066ba1-300a-48d7-a07b-cffdbadf146d
+x-ms-ags-diagnostic           : {"ServerInfo":{"DataCenter":"East US 2","Slice":"E","Ring":"5","ScaleUnit":"007","RoleInstance":"BN1PEPF0000A15A"}}
+Date                          : Thu, 18 Dec 2025 14:58:39 GMT
+
+"
+Scanning OneDrive: careers@princetonits.com
+PS>TerminatingError(Get-MgUserDrive_List): "The running command stopped because the preference variable "ErrorActionPreference" or common parameter is set to Stop: User's mysite not found.
+
+Status: 404 (NotFound)
+ErrorCode: ResourceNotFound
+Date: 2025-12-18T14:58:39
+
+Headers:
+Vary                          : Accept-Encoding
+Strict-Transport-Security     : max-age=31536000
+request-id                    : d15fa84e-c6b1-490c-91eb-a8f24ac5666e
+client-request-id             : 8183388b-9dc6-4412-8f72-3b364976b1ae
+x-ms-ags-diagnostic           : {"ServerInfo":{"DataCenter":"East US 2","Slice":"E","Ring":"5","ScaleUnit":"007","RoleInstance":"BN1PEPF0000A15A"}}
+Date                          : Thu, 18 Dec 2025 14:58:39 GMT
+
+"
+Scanning OneDrive: charles.aguiar@princetonits.com
+Scanning OneDrive: cmoon_intellizant.com#EXT#@princetonits.onmicrosoft.com
+PS>TerminatingError(Get-MgUserDrive_List): "The running command stopped because the preference variable "ErrorActionPreference" or common parameter is set to Stop: User's mysite not found.
+
+Status: 404 (NotFound)
+ErrorCode: ResourceNotFound
+Date: 2025-12-18T14:58:42
+
+Headers:
+Vary                          : Accept-Encoding
+Strict-Transport-Security     : max-age=31536000
+request-id                    : a45fcb02-131f-415d-a055-c85fb67d4a2b
+client-request-id             : bfd3b9a0-708b-4a22-90de-9bd3b7825b2d
+x-ms-ags-diagnostic           : {"ServerInfo":{"DataCenter":"East US 2","Slice":"E","Ring":"5","ScaleUnit":"007","RoleInstance":"BN1PEPF0000A15A"}}
+Date                          : Thu, 18 Dec 2025 14:58:42 GMT
+
+"
+Scanning OneDrive: confpc@princetonits.com
+Scanning OneDrive: copilot.lab@princetonits.com
+Scanning OneDrive: crm.admin@princetonits.com
+Scanning OneDrive: crm.user@princetonits.com
+PS>TerminatingError(Get-MgUserDrive_List): "The running command stopped because the preference variable "ErrorActionPreference" or common parameter is set to Stop: User's mysite not found.
+
+Status: 404 (NotFound)
+ErrorCode: ResourceNotFound
+Date: 2025-12-18T14:59:22
+
+Headers:
+Vary                          : Accept-Encoding
+Strict-Transport-Security     : max-age=31536000
+request-id                    : e05ce170-bd89-4051-93ad-b22957943f50
+client-request-id             : df13fd61-17af-433b-83a9-f4cf5fd7e37d
+x-ms-ags-diagnostic           : {"ServerInfo":{"DataCenter":"East US 2","Slice":"E","Ring":"5","ScaleUnit":"007","RoleInstance":"BN1PEPF00015C5B"}}
+Date                          : Thu, 18 Dec 2025 14:59:21 GMT
+
+"
+Scanning OneDrive: deepthi.thota@princetonits.com
+Scanning OneDrive: Dilip.Tippa@princetonits.com
+Scanning OneDrive: donotdelete@cust6617.sbc.connecttoteams.com
+PS>TerminatingError(Get-MgUserDrive_List): "The running command stopped because the preference variable "ErrorActionPreference" or common parameter is set to Stop: User's mysite not found.
+
+Status: 404 (NotFound)
+ErrorCode: ResourceNotFound
+Date: 2025-12-18T15:00:14
+
+Headers:
+Vary                          : Accept-Encoding
+Strict-Transport-Security     : max-age=31536000
+request-id                    : 94b30a79-0715-4f1d-9855-bb5a38b09ae8
+client-request-id             : d590c182-ca68-4f86-a374-9c2283897db5
+x-ms-ags-diagnostic           : {"ServerInfo":{"DataCenter":"East US 2","Slice":"E","Ring":"5","ScaleUnit":"007","RoleInstance":"BN1PEPF00015C5B"}}
+Date                          : Thu, 18 Dec 2025 15:00:13 GMT
+
+"
+Scanning OneDrive: donotreply@skillconnect360.com
+PS>TerminatingError(Get-MgUserDrive_List): "The running command stopped because the preference variable "ErrorActionPreference" or common parameter is set to Stop: User's mysite not found.
+
+Status: 404 (NotFound)
+ErrorCode: ResourceNotFound
+Date: 2025-12-18T15:00:14
+
+Headers:
+Vary                          : Accept-Encoding
+Strict-Transport-Security     : max-age=31536000
+request-id                    : 862b7836-f950-4b18-a11f-a94b84c70fc8
+client-request-id             : 4ba947a9-0a7d-4869-9859-b6010bee35f2
+x-ms-ags-diagnostic           : {"ServerInfo":{"DataCenter":"East US 2","Slice":"E","Ring":"5","ScaleUnit":"007","RoleInstance":"BN1PEPF00015C5B"}}
+Date                          : Thu, 18 Dec 2025 15:00:14 GMT
+
+"
+Scanning OneDrive: durga.itha@princetonits.com
+Scanning OneDrive: emily@princetonits.com
+Scanning OneDrive: feddly.jeanniton@princetonits.com
+Scanning OneDrive: gary.ramos@princetonits.com
+Scanning OneDrive: geetha.yeluri@princetonits.com
+Scanning OneDrive: glory.gandam@princetonits.com
+Scanning OneDrive: gurleen.kaur@princetonits.com
+Scanning OneDrive: Hari.Cherukuri@princetonits.com
+Scanning OneDrive: hari.rajkumar@princetonits.com
+Scanning OneDrive: harika.tamma@princetonits.com
+Scanning OneDrive: haritha.turkapudi@princetonits.com
+Scanning OneDrive: harshita.bharadwaj@princetonits.com
+Scanning OneDrive: hitesh.goparaju@princetonits.com
+Scanning OneDrive: immigration@princetonits.com
+PS>TerminatingError(Get-MgUserDrive_List): "The running command stopped because the preference variable "ErrorActionPreference" or common parameter is set to Stop: User's mysite not found.
+
+Status: 404 (NotFound)
+ErrorCode: ResourceNotFound
+Date: 2025-12-18T15:32:10
+
+Headers:
+Vary                          : Accept-Encoding
+Strict-Transport-Security     : max-age=31536000
+request-id                    : ee30ba95-5ae4-4b38-bd60-ce42fdd77878
+client-request-id             : 9179a5bb-cb44-4067-b942-1f9ec6398b44
+x-ms-ags-diagnostic           : {"ServerInfo":{"DataCenter":"East US","Slice":"E","Ring":"5","ScaleUnit":"001","RoleInstance":"MN1PEPF00033E4A"}}
+Date                          : Thu, 18 Dec 2025 15:32:09 GMT
+
+"
+Scanning OneDrive: IntroductoryCall@princetonits.com
+PS>TerminatingError(Get-MgUserDrive_List): "The running command stopped because the preference variable "ErrorActionPreference" or common parameter is set to Stop: User's mysite not found.
+
+Status: 404 (NotFound)
+ErrorCode: ResourceNotFound
+Date: 2025-12-18T15:32:10
+
+Headers:
+Vary                          : Accept-Encoding
+Strict-Transport-Security     : max-age=31536000
+request-id                    : 6e1c1ec7-90e0-45ec-b5ed-cc642fe77193
+client-request-id             : c374e988-df51-4c3c-86ea-9bf5019afd45
+x-ms-ags-diagnostic           : {"ServerInfo":{"DataCenter":"East US","Slice":"E","Ring":"5","ScaleUnit":"001","RoleInstance":"MN1PEPF00033E4A"}}
+Date                          : Thu, 18 Dec 2025 15:32:10 GMT
+
+"
+Scanning OneDrive: isha.madhusudhan@princetonits.com
+Scanning OneDrive: jay.pandiyan@princetonits.com
+Scanning OneDrive: jayanta.rudra@princetonits.com
+Scanning OneDrive: jyothi.somala@princetonits.com
+Scanning OneDrive: karthik.kumar@princetonits.com
+PS>TerminatingError(Get-MgUserDrive_List): "The running command stopped because the preference variable "ErrorActionPreference" or common parameter is set to Stop: User's mysite not found.
+
+Status: 404 (NotFound)
+ErrorCode: ResourceNotFound
+Date: 2025-12-18T15:33:19
+
+Headers:
+Vary                          : Accept-Encoding
+Strict-Transport-Security     : max-age=31536000
+request-id                    : 536ca859-2cbc-4fd3-a917-263ac05487c1
+client-request-id             : 20f235e0-4835-4b34-b680-adfadd1f586b
+x-ms-ags-diagnostic           : {"ServerInfo":{"DataCenter":"East US","Slice":"E","Ring":"5","ScaleUnit":"001","RoleInstance":"MN1PEPF0000F4FF"}}
+Date                          : Thu, 18 Dec 2025 15:33:19 GMT
+
+"
+Scanning OneDrive: kedar.barve@princetonits.com
+Scanning OneDrive: kenny.prada@princetonits.com
+Scanning OneDrive: kiran.gujja@princetonits.com
+Scanning OneDrive: kishore.pallapothu@princetonits.com
+Scanning OneDrive: krishna.rao@princetonits.com
+Scanning OneDrive: lakshman.bulusu@princetonits.com
+Scanning OneDrive: Lalith.Turakapudi@princetonits.com
+Scanning OneDrive: Lasitha.Akkottillath@princetonits.com
+PS>TerminatingError(Get-MgDriveItemPermission_List): "The running command stopped because the preference variable "ErrorActionPreference" or common parameter is set to Stop: An error occurred while sending the request."
+PS>TerminatingError(Get-MgDriveItemPermission_List): "The running command stopped because the preference variable "ErrorActionPreference" or common parameter is set to Stop: An error occurred while sending the request."
+Scanning OneDrive: Madhav.Chundru@princetonits.com
+Scanning OneDrive: madhava.reddy@princetonits.com
+Scanning OneDrive: madhavi.padala@princetonits.com
+Scanning OneDrive: madhuri@princetonits.com
+Scanning OneDrive: Mahendra.Keshavpatnam@princetonits.com
+Scanning OneDrive: makeshprabu.ramasamy@princetonits.com
+Scanning OneDrive: mani.singaram@princetonits.com
+Scanning OneDrive: manish.sharma@princetonits.com
+Scanning OneDrive: maqsood.alam@princetonits.com
+Scanning OneDrive: meeting.room.mars@princetonits.com
+Scanning OneDrive: Meghana.Ponnapalli@princetonits.com
+Scanning OneDrive: michael.hosten@princetonits.com
+Scanning OneDrive: Monali.Mohapatra@princetonits.com
+Scanning OneDrive: Monisha.Boddeda@princetonits.com
+Scanning OneDrive: msp.support@princetonits.com
+PS>TerminatingError(Get-MgUserDrive_List): "The running command stopped because the preference variable "ErrorActionPreference" or common parameter is set to Stop: User's mysite not found.
+
+Status: 404 (NotFound)
+ErrorCode: ResourceNotFound
+Date: 2025-12-18T19:21:44
+
+Headers:
+Vary                          : Accept-Encoding
+Strict-Transport-Security     : max-age=31536000
+request-id                    : efc97b6b-808b-4263-ac68-cc3604c6100f
+client-request-id             : 1b341ca4-fb32-4cbe-b724-a2cbe3c0a6d0
+x-ms-ags-diagnostic           : {"ServerInfo":{"DataCenter":"East US","Slice":"E","Ring":"5","ScaleUnit":"004","RoleInstance":"BL02EPF000028B6"}}
+Date                          : Thu, 18 Dec 2025 19:21:43 GMT
+
+"
+Scanning OneDrive: nfsadmin@princetonits.com
+PS>TerminatingError(Get-MgUserDrive_List): "The running command stopped because the preference variable "ErrorActionPreference" or common parameter is set to Stop: User's mysite not found.
+
+Status: 404 (NotFound)
+ErrorCode: ResourceNotFound
+Date: 2025-12-18T19:21:44
+
+Headers:
+Vary                          : Accept-Encoding
+Strict-Transport-Security     : max-age=31536000
+request-id                    : 406ed048-bf8a-49b2-8e65-9b60db93408e
+client-request-id             : 114de55b-5e5e-4349-b3a5-231417911ded
+x-ms-ags-diagnostic           : {"ServerInfo":{"DataCenter":"East US","Slice":"E","Ring":"5","ScaleUnit":"004","RoleInstance":"BL02EPF000028B6"}}
+Date                          : Thu, 18 Dec 2025 19:21:43 GMT
+
+"
+Scanning OneDrive: nicholas.castellano@princetonits.com
+Scanning OneDrive: Nikhil.Kulkarni@princetonits.com
+PS>TerminatingError(Get-MgUserDrive_List): "The running command stopped because the preference variable "ErrorActionPreference" or common parameter is set to Stop: User's mysite not found.
+
+Status: 404 (NotFound)
+ErrorCode: ResourceNotFound
+Date: 2025-12-18T19:21:45
+
+Headers:
+Vary                          : Accept-Encoding
+Strict-Transport-Security     : max-age=31536000
+request-id                    : 9f187f5c-10bc-49fc-91e2-064e821dfab4
+client-request-id             : 2794c834-daf1-4e21-bbb8-7abbe51c8504
+x-ms-ags-diagnostic           : {"ServerInfo":{"DataCenter":"East US","Slice":"E","Ring":"5","ScaleUnit":"004","RoleInstance":"BL02EPF000028B6"}}
+Date                          : Thu, 18 Dec 2025 19:21:44 GMT
+
+"
+Scanning OneDrive: openapi@princetonits.com
+PS>TerminatingError(Get-MgUserDrive_List): "The running command stopped because the preference variable "ErrorActionPreference" or common parameter is set to Stop: User's mysite not found.
+
+Status: 404 (NotFound)
+ErrorCode: ResourceNotFound
+Date: 2025-12-18T19:21:46
+
+Headers:
+Vary                          : Accept-Encoding
+Strict-Transport-Security     : max-age=31536000
+request-id                    : 3d1f0334-1795-4731-9c6a-93d460aa7ceb
+client-request-id             : 48914059-b2f4-46d8-bba4-cb1062d3f5a0
+x-ms-ags-diagnostic           : {"ServerInfo":{"DataCenter":"East US","Slice":"E","Ring":"5","ScaleUnit":"004","RoleInstance":"BL02EPF000028B6"}}
+Date                          : Thu, 18 Dec 2025 19:21:45 GMT
+
+"
+Scanning OneDrive: outreach@trk.tech365.io
+Scanning OneDrive: PanditAvailability@princetonits.com
+PS>TerminatingError(Get-MgUserDrive_List): "The running command stopped because the preference variable "ErrorActionPreference" or common parameter is set to Stop: User's mysite not found.
+
+Status: 404 (NotFound)
+ErrorCode: ResourceNotFound
+Date: 2025-12-18T19:21:48
+
+Headers:
+Vary                          : Accept-Encoding
+Strict-Transport-Security     : max-age=31536000
+request-id                    : 45460c6c-74ff-4487-ba13-0a5e38ab37f9
+client-request-id             : 5021da5b-22ed-4ff0-8dd1-0473cfbce0d4
+x-ms-ags-diagnostic           : {"ServerInfo":{"DataCenter":"East US","Slice":"E","Ring":"5","ScaleUnit":"004","RoleInstance":"BL02EPF000028B6"}}
+Date                          : Thu, 18 Dec 2025 19:21:47 GMT
+
+"
+Scanning OneDrive: PanditCalender@princetonits.com
+PS>TerminatingError(Get-MgUserDrive_List): "The running command stopped because the preference variable "ErrorActionPreference" or common parameter is set to Stop: User's mysite not found.
+
+Status: 404 (NotFound)
+ErrorCode: ResourceNotFound
+Date: 2025-12-18T19:21:48
+
+Headers:
+Vary                          : Accept-Encoding
+Strict-Transport-Security     : max-age=31536000
+request-id                    : afdc58b8-a5cf-4e08-a190-ba7417ede54f
+client-request-id             : 88531e81-a343-42df-83e1-e61af1d2feeb
+x-ms-ags-diagnostic           : {"ServerInfo":{"DataCenter":"East US","Slice":"E","Ring":"5","ScaleUnit":"004","RoleInstance":"BL02EPF000028B6"}}
+Date                          : Thu, 18 Dec 2025 19:21:47 GMT
+
+"
+Scanning OneDrive: pari.gill@princetonits.com
+Scanning OneDrive: parul.sharma@princetonits.com
+Scanning OneDrive: Pavan.Doddapaneni@princetonits.com
+Scanning OneDrive: pavan.jayavarapu@princetonits.com
+Scanning OneDrive: prasannajit.biswal@princetonits.com
+Scanning OneDrive: prasuna.bhimaraju@princetonits.com
+Scanning OneDrive: pravallika.nakka@princetonits.com
+Scanning OneDrive: praveen.roy@princetonits.com
+Scanning OneDrive: procurement.in@princetonits.com
+Scanning OneDrive: raju.tinnathi@princetonits.com
+Scanning OneDrive: Rama.Mannava@princetonits.com
+Scanning OneDrive: Rasha.Neelakayala@princetonits.com
+Scanning OneDrive: ravi@princetonits.com
+PS>TerminatingError(Get-MgDriveItemPermission_List): "The running command stopped because the preference variable "ErrorActionPreference" or common parameter is set to Stop: An error occurred while sending the request."
+PS>TerminatingError(Get-MgDriveItemPermission_List): "The running command stopped because the preference variable "ErrorActionPreference" or common parameter is set to Stop: No such host is known. (graph.microsoft.com:443)"
+PS>TerminatingError(Get-MgDriveItemPermission_List): "The running command stopped because the preference variable "ErrorActionPreference" or common parameter is set to Stop: No such host is known. (graph.microsoft.com:443)"
+PS>TerminatingError(Get-MgDriveItemPermission_List): "The running command stopped because the preference variable "ErrorActionPreference" or common parameter is set to Stop: No such host is known. (graph.microsoft.com:443)"
+PS>TerminatingError(Get-MgDriveItemPermission_List): "The running command stopped because the preference variable "ErrorActionPreference" or common parameter is set to Stop: No such host is known. (graph.microsoft.com:443)"
+PS>TerminatingError(Get-MgDriveItemPermission_List): "The running command stopped because the preference variable "ErrorActionPreference" or common parameter is set to Stop: No such host is known. (graph.microsoft.com:443)"
+PS>TerminatingError(Get-MgDriveItemPermission_List): "The running command stopped because the preference variable "ErrorActionPreference" or common parameter is set to Stop: No such host is known. (graph.microsoft.com:443)"
+PS>TerminatingError(Get-MgDriveItemPermission_List): "The running command stopped because the preference variable "ErrorActionPreference" or common parameter is set to Stop: No such host is known. (graph.microsoft.com:443)"
+PS>TerminatingError(Get-MgDriveItemPermission_List): "The running command stopped because the preference variable "ErrorActionPreference" or common parameter is set to Stop: No such host is known. (graph.microsoft.com:443)"
+PS>TerminatingError(Get-MgDriveItemPermission_List): "The running command stopped because the preference variable "ErrorActionPreference" or common parameter is set to Stop: No such host is known. (graph.microsoft.com:443)"
+PS>TerminatingError(Get-MgDriveItemPermission_List): "The running command stopped because the preference variable "ErrorActionPreference" or common parameter is set to Stop: No such host is known. (graph.microsoft.com:443)"
+PS>TerminatingError(Get-MgDriveItemPermission_List): "The running command stopped because the preference variable "ErrorActionPreference" or common parameter is set to Stop: No such host is known. (graph.microsoft.com:443)"
+PS>TerminatingError(Get-MgDriveItemPermission_List): "The running command stopped because the preference variable "ErrorActionPreference" or common parameter is set to Stop: No such host is known. (graph.microsoft.com:443)"
+PS>TerminatingError(Get-MgDriveItemPermission_List): "The running command stopped because the preference variable "ErrorActionPreference" or common parameter is set to Stop: No such host is known. (graph.microsoft.com:443)"
+PS>TerminatingError(Get-MgDriveItemPermission_List): "The running command stopped because the preference variable "ErrorActionPreference" or common parameter is set to Stop: No such host is known. (graph.microsoft.com:443)"
+PS>TerminatingError(Get-MgDriveItemPermission_List): "The running command stopped because the preference variable "ErrorActionPreference" or common parameter is set to Stop: An error occurred while sending the request."
+PS>TerminatingError(Get-MgDriveItemPermission_List): "The running command stopped because the preference variable "ErrorActionPreference" or common parameter is set to Stop: An error occurred while sending the request."
+PS>TerminatingError(Get-MgDriveItemPermission_List): "The running command stopped because the preference variable "ErrorActionPreference" or common parameter is set to Stop: The SSL connection could not be established, see inner exception."
+PS>TerminatingError(Get-MgDriveItemPermission_List): "The running command stopped because the preference variable "ErrorActionPreference" or common parameter is set to Stop: An error occurred while sending the request."
+PS>TerminatingError(Get-MgDriveItemPermission_List): "The running command stopped because the preference variable "ErrorActionPreference" or common parameter is set to Stop: An HTTP/2 connection could not be established because the server did not complete the HTTP/2 handshake. (InvalidResponse)"
+PS>TerminatingError(Get-MgDriveItemPermission_List): "The running command stopped because the preference variable "ErrorActionPreference" or common parameter is set to Stop: An HTTP/2 connection could not be established because the server did not complete the HTTP/2 handshake. (InvalidResponse)"
+PS>TerminatingError(): "The pipeline has been stopped."
+>> TerminatingError(): "The pipeline has been stopped."
+>> TerminatingError(): "The pipeline has been stopped."
+>> TerminatingError(): "The pipeline has been stopped."
+>> TerminatingError(): "The pipeline has been stopped."
+>> TerminatingError(): "The pipeline has been stopped."
+>> TerminatingError(): "The pipeline has been stopped."
+>> TerminatingError(): "The pipeline has been stopped."
+>> TerminatingError(): "The pipeline has been stopped."
+>> TerminatingError(): "The pipeline has been stopped."
+>> TerminatingError(): "The pipeline has been stopped."
+>> TerminatingError(): "The pipeline has been stopped."
+>> TerminatingError(): "The pipeline has been stopped."
+>> TerminatingError(): "The pipeline has been stopped."
+>> TerminatingError(): "The pipeline has been stopped."
+**********************
+PowerShell transcript end
+End time: 20251218215422
+**********************
